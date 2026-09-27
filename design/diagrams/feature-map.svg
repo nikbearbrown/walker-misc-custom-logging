@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-labelledby="t d">
+<title id="t">Feature map — Custom Logging</title>
+<desc id="d">Observed features solid; absent or pending dashed. IDs: F-01..F-10</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6e9ef"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f2994a"/></marker></defs>
+<rect width="960" height="540" fill="#1f2430"/>
+<text x="24" y="34" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6e9ef">Feature map — Custom Logging</text>
+<text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#9aa3b2">Observed features solid; absent or pending dashed.</text>
+<text x="936" y="526" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">solid = observed in code · dashed = proposed / not present · refs: F-01..F-10</text>
+<line x1="264.0" y1="118.0" x2="336.0" y2="118.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="264.0" y1="118.0" x2="656.0" y2="118.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="264.0" y1="136.1" x2="656.0" y2="198.3" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="150.0" y1="150.0" x2="150.0" y2="326.0" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<line x1="584.0" y1="358.0" x2="656.0" y2="358.0" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<line x1="780.0" y1="150.0" x2="780.0" y2="326.0" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<rect x="40" y="90" width="220" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="150.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-01 logger mirror</text>
+<text x="150.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE · done</text>
+<rect x="340" y="90" width="240" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="460.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-02 error formatting</text>
+<text x="460.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE · colours unverified</text>
+<rect x="660" y="90" width="240" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="780.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-03 print buttons</text>
+<text x="780.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">IMPORTANT · 10 checks</text>
+<rect x="660" y="190" width="240" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="780.0" y="212" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-04 startup burst</text>
+<text x="780.0" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">IMPORTANT · 5 checks</text>
+<rect x="40" y="190" width="220" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="150.0" y="212" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-05 flush indicator</text>
+<text x="150.0" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">NICE · untested</text>
+<rect x="340" y="190" width="240" height="56" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="460.0" y="212" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-06/07 logs folder, crash</text>
+<text x="460.0" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">NICE · not exercised</text>
+<rect x="40" y="330" width="220" height="56" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="150.0" y="352" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-08 console cap/filter</text>
+<text x="150.0" y="368" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">NICE · absent</text>
+<rect x="340" y="330" width="240" height="56" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="460.0" y="352" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-09 font licence</text>
+<text x="460.0" y="368" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">pending</text>
+<rect x="660" y="330" width="240" height="56" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="780.0" y="352" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-10 two 4K films</text>
+<text x="780.0" y="368" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">pending</text>
+</svg>

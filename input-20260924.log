@@ -1,0 +1,56 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Normal message 1.
+ERROR: Error 1.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://main.gd:13)
+       [1] run (res://test_input.gd:18)
+WARNING: Warning 1.
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://main.gd:14)
+       [1] run (res://test_input.gd:18)
+ERROR: Error 2.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://main.gd:15)
+       [1] run (res://test_input.gd:18)
+WARNING: Warning 2.
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://main.gd:16)
+       [1] run (res://test_input.gd:18)
+Normal message 2.
+Normal message 1 (stderr).
+Normal message 2 (stderr).
+Normal message 1 (raw). Normal message 2 (raw).
+--------
+PASS initial console contains Normal message 1.
+PASS initial console contains Error 1.
+PASS initial console contains Warning 1.
+PASS initial console contains Normal message 1 (stderr).
+PASS initial console contains Normal message 1 (raw).
+Printing message #1.
+PASS PrintMessage increments counter
+PASS PrintMessage reaches in-game console
+Printing message #1 (raw). PASS PrintMessageRaw increments counter
+PASS PrintMessageRaw reaches in-game console
+Printing message #1 (stderr).
+PASS PrintMessageStderr increments counter
+PASS PrintMessageStderr reaches in-game console
+WARNING: Printing warning #1.
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _on_print_warning_pressed (res://main.gd:46)
+       [1] run (res://test_input.gd:38)
+PASS PrintWarning increments counter
+PASS PrintWarning reaches in-game console
+ERROR: Printing error #1.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _on_print_error_pressed (res://main.gd:51)
+       [1] run (res://test_input.gd:38)
+PASS PrintError increments counter
+PASS PrintError reaches in-game console
+RESULT checks=15 failures=0; expected demo errors/warnings are intentional
